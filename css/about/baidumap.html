@@ -1,118 +1,182 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
-
-<meta name="keywords" content="°Ù¶ÈµØÍ¼,°Ù¶ÈµØÍ¼API£¬°Ù¶ÈµØÍ¼×Ô¶¨Òå¹¤¾ß£¬°Ù¶ÈµØÍ¼Ëù¼û¼´ËùµÃ¹¤¾ß">
-<meta name="description" content="°Ù¶ÈµØÍ¼API×Ô¶¨ÒåµØÍ¼£¬°ïÖúÓÃ»§ÔÚ¿ÉÊÓ»¯²Ù×÷ÏÂÉú³É°Ù¶ÈµØÍ¼">
-<title>°Ù¶ÈµØÍ¼API×Ô¶¨ÒåµØÍ¼</title>
-<!--ÒıÓÃ°Ù¶ÈµØÍ¼API-->
-<style type="text/css">
-    html,body{margin:0;padding:0;}
+ï»¿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta content="text/html" charset="utf-8" http-equiv="Content-Type">
+            <meta content="ç™¾åº¦åœ°å›¾,ç™¾åº¦åœ°å›¾APIï¼Œç™¾åº¦åœ°å›¾è‡ªå®šä¹‰å·¥å…·ï¼Œç™¾åº¦åœ°å›¾æ‰€è§å³æ‰€å¾—å·¥å…·" name="keywords">
+                <meta content="ç™¾åº¦åœ°å›¾APIè‡ªå®šä¹‰åœ°å›¾ï¼Œå¸®åŠ©ç”¨æˆ·åœ¨å¯è§†åŒ–æ“ä½œä¸‹ç”Ÿæˆç™¾åº¦åœ°å›¾" name="description">
+                    <title>
+                        ç™¾åº¦åœ°å›¾APIè‡ªå®šä¹‰åœ°å›¾
+                    </title>
+                    <!--å¼•ç”¨ç™¾åº¦åœ°å›¾API-->
+                    <style type="text/css">
+                        html,body{margin:0;padding:0;}
     .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
     .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
-</style>
-<script type="text/javascript" src="./api"></script><script type="text/javascript" src="./getscript"></script><link rel="stylesheet" type="text/css" href="./bmap.css">
-<script src="./getmodules" type="text/javascript" charset="utf-8"></script></head>
-
-<body marginwidth="0" marginheight="0">
-  <!--°Ù¶ÈµØÍ¼ÈİÆ÷-->
-  <div style="width: 500px; height: 500px; border: 1px solid rgb(204, 204, 204); overflow: hidden; position: relative; z-index: 0; background-image: url(&quot;http://api.map.baidu.com/images/bg.png&quot;); color: rgb(0, 0, 0); text-align: left;" id="dituContent"><div id="platform" style="overflow: visible; position: absolute; z-index: 0; left: 0px; top: 0px; cursor: url(&quot;http://api.map.baidu.com/images/openhand.cur&quot;) 8 8, default;"><div id="mask" class=" BMap_mask" style="position: absolute; left: 0px; top: 0px; z-index: 9; overflow: hidden; user-select: none; width: 500px; height: 500px;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;"><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 800;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 600;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 500;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 400;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;"></div></div><div style="position: absolute; z-index: -1; left: 250px; top: 250px;"><img src="./saved_resource" style="position: absolute; border: none; width: 256px; height: 256px; left: -276px; top: -307px;"><img src="./saved_resource(1)" style="position: absolute; border: none; width: 256px; height: 256px; left: -20px; top: -51px;"><img src="./saved_resource(2)" style="position: absolute; border: none; width: 256px; height: 256px; left: 236px; top: 205px;"><img src="./saved_resource(3)" style="position: absolute; border: none; width: 256px; height: 256px; left: -276px; top: -51px;"><img src="./saved_resource(4)" style="position: absolute; border: none; width: 256px; height: 256px; left: -20px; top: 205px;"><img src="./saved_resource(5)" style="position: absolute; border: none; width: 256px; height: 256px; left: -20px; top: -307px;"><img src="./saved_resource(6)" style="position: absolute; border: none; width: 256px; height: 256px; left: 236px; top: -51px;"><img src="./saved_resource(7)" style="position: absolute; border: none; width: 256px; height: 256px; left: -276px; top: 205px;"><img src="./saved_resource(8)" style="position: absolute; border: none; width: 256px; height: 256px; left: 236px; top: -307px;"></div></div><div id="zoomer" style="position:absolute;z-index:0;top:0px;left:0px;overflow:hidden;visibility:hidden;cursor:url(http://api.map.baidu.com/images/openhand.cur) 8 8,default"><div class="BMap_zoomer" style="top:0;left:0;"></div><div class="BMap_zoomer" style="top:0;right:0;"></div><div class="BMap_zoomer" style="bottom:0;left:0;"></div><div class="BMap_zoomer" style="bottom:0;right:0;"></div></div><div class=" anchorBL" style="height: 32px; position: absolute; z-index: 10; bottom: 0px; right: auto; top: auto; left: 1px;"><a title="µ½°Ù¶ÈµØÍ¼Ê×Ò³" target="_blank" href="http://map.baidu.com/?sr=1" style="outline: none;"><img style="border:none;width:77px;height:32px" src="../../images/about/copyright_logo.png"></a></div></div>
-
-<script type="text/javascript">
-    //´´½¨ºÍ³õÊ¼»¯µØÍ¼º¯Êı£º
+                    </style>
+                    <script src="./api" type="text/javascript">
+                    </script>
+                    <script src="./getscript" type="text/javascript">
+                    </script>
+                    <link href="./bmap.css" rel="stylesheet" type="text/css">
+                        <script charset="utf-8" src="./getmodules" type="text/javascript">
+                        </script>
+                    </link>
+                </meta>
+            </meta>
+        </meta>
+    </head>
+    <body marginheight="0" marginwidth="0">
+        <!--ç™¾åº¦åœ°å›¾å®¹å™¨-->
+        <div id="dituContent" style='width: 500px; height: 500px; border: 1px solid rgb(204, 204, 204); overflow: hidden; position: relative; z-index: 0; background-image: url("http://api.map.baidu.com/images/bg.png"); color: rgb(0, 0, 0); text-align: left;'>
+            <div id="platform" style='overflow: visible; position: absolute; z-index: 0; left: 0px; top: 0px; cursor: url("http://api.map.baidu.com/images/openhand.cur") 8 8, default;'>
+                <div class=" BMap_mask" id="mask" style="position: absolute; left: 0px; top: 0px; z-index: 9; overflow: hidden; user-select: none; width: 500px; height: 500px;">
+                </div>
+                <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
+                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 800;">
+                    </div>
+                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
+                    </div>
+                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 600;">
+                    </div>
+                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 500;">
+                    </div>
+                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 400;">
+                    </div>
+                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
+                    </div>
+                </div>
+                <div style="position: absolute; z-index: -1; left: 250px; top: 250px;">
+                    <img src="./saved_resource" style="position: absolute; border: none; width: 256px; height: 256px; left: -276px; top: -307px;">
+                        <img src="./saved_resource(1)" style="position: absolute; border: none; width: 256px; height: 256px; left: -20px; top: -51px;">
+                            <img src="./saved_resource(2)" style="position: absolute; border: none; width: 256px; height: 256px; left: 236px; top: 205px;">
+                                <img src="./saved_resource(3)" style="position: absolute; border: none; width: 256px; height: 256px; left: -276px; top: -51px;">
+                                    <img src="./saved_resource(4)" style="position: absolute; border: none; width: 256px; height: 256px; left: -20px; top: 205px;">
+                                        <img src="./saved_resource(5)" style="position: absolute; border: none; width: 256px; height: 256px; left: -20px; top: -307px;">
+                                            <img src="./saved_resource(6)" style="position: absolute; border: none; width: 256px; height: 256px; left: 236px; top: -51px;">
+                                                <img src="./saved_resource(7)" style="position: absolute; border: none; width: 256px; height: 256px; left: -276px; top: 205px;">
+                                                    <img src="./saved_resource(8)" style="position: absolute; border: none; width: 256px; height: 256px; left: 236px; top: -307px;"/>
+                                                </img>
+                                            </img>
+                                        </img>
+                                    </img>
+                                </img>
+                            </img>
+                        </img>
+                    </img>
+                </div>
+            </div>
+            <div id="zoomer" style="position:absolute;z-index:0;top:0px;left:0px;overflow:hidden;visibility:hidden;cursor:url(http://api.map.baidu.com/images/openhand.cur) 8 8,default">
+                <div class="BMap_zoomer" style="top:0;left:0;">
+                </div>
+                <div class="BMap_zoomer" style="top:0;right:0;">
+                </div>
+                <div class="BMap_zoomer" style="bottom:0;left:0;">
+                </div>
+                <div class="BMap_zoomer" style="bottom:0;right:0;">
+                </div>
+            </div>
+            <div class=" anchorBL" style="height: 32px; position: absolute; z-index: 10; bottom: 0px; right: auto; top: auto; left: 1px;">
+                <a href="http://map.baidu.com/?sr=1" style="outline: none;" target="_blank" title="åˆ°ç™¾åº¦åœ°å›¾é¦–é¡µ">
+                    <img src="../../images/about/copyright_logo.png" style="border:none;width:77px;height:32px"/>
+                </a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            //åˆ›å»ºå’Œåˆå§‹åŒ–åœ°å›¾å‡½æ•°ï¼š
     function initMap(){
-        createMap();//´´½¨µØÍ¼
-        setMapEvent();//ÉèÖÃµØÍ¼ÊÂ¼ş
-        addMapControl();//ÏòµØÍ¼Ìí¼Ó¿Ø¼ş
-        addMarker();//ÏòµØÍ¼ÖĞÌí¼Ómarker
+        createMap();//åˆ›å»ºåœ°å›¾
+        setMapEvent();//è®¾ç½®åœ°å›¾äº‹ä»¶
+        addMapControl();//å‘åœ°å›¾æ·»åŠ æ§ä»¶
+        addMarker();//å‘åœ°å›¾ä¸­æ·»åŠ marker
     }
     
-    //´´½¨µØÍ¼º¯Êı£º
+    //åˆ›å»ºåœ°å›¾å‡½æ•°ï¼š
     function createMap(){
-        var map = new BMap.Map("dituContent");//ÔÚ°Ù¶ÈµØÍ¼ÈİÆ÷ÖĞ´´½¨Ò»¸öµØÍ¼
-        var point = new BMap.Point(114.033698,23.060672);//¶¨ÒåÒ»¸öÖĞĞÄµã×ø±ê
-        map.centerAndZoom(point,18);//Éè¶¨µØÍ¼µÄÖĞĞÄµãºÍ×ø±ê²¢½«µØÍ¼ÏÔÊ¾ÔÚµØÍ¼ÈİÆ÷ÖĞ
-        window.map = map;//½«map±äÁ¿´æ´¢ÔÚÈ«¾Ö
+        var map = new BMap.Map("dituContent");//åœ¨ç™¾åº¦åœ°å›¾å®¹å™¨ä¸­åˆ›å»ºä¸€ä¸ªåœ°å›¾
+        var point = new BMap.Point(114.033698,23.060672);//å®šä¹‰ä¸€ä¸ªä¸­å¿ƒç‚¹åæ ‡
+        map.centerAndZoom(point,18);//è®¾å®šåœ°å›¾çš„ä¸­å¿ƒç‚¹å’Œåæ ‡å¹¶å°†åœ°å›¾æ˜¾ç¤ºåœ¨åœ°å›¾å®¹å™¨ä¸­
+        window.map = map;//å°†mapå˜é‡å­˜å‚¨åœ¨å…¨å±€
     }
     
-    //µØÍ¼ÊÂ¼şÉèÖÃº¯Êı£º
+    //åœ°å›¾äº‹ä»¶è®¾ç½®å‡½æ•°ï¼š
     function setMapEvent(){
-        map.enableDragging();//ÆôÓÃµØÍ¼ÍÏ×§ÊÂ¼ş£¬Ä¬ÈÏÆôÓÃ(¿É²»Ğ´)
-        map.enableScrollWheelZoom();//ÆôÓÃµØÍ¼¹öÂÖ·Å´óËõĞ¡
-        map.enableDoubleClickZoom();//ÆôÓÃÊó±êË«»÷·Å´ó£¬Ä¬ÈÏÆôÓÃ(¿É²»Ğ´)
-        map.enableKeyboard();//ÆôÓÃ¼üÅÌÉÏÏÂ×óÓÒ¼üÒÆ¶¯µØÍ¼
+        map.enableDragging();//å¯ç”¨åœ°å›¾æ‹–æ‹½äº‹ä»¶ï¼Œé»˜è®¤å¯ç”¨(å¯ä¸å†™)
+        map.enableScrollWheelZoom();//å¯ç”¨åœ°å›¾æ»šè½®æ”¾å¤§ç¼©å°
+        map.enableDoubleClickZoom();//å¯ç”¨é¼ æ ‡åŒå‡»æ”¾å¤§ï¼Œé»˜è®¤å¯ç”¨(å¯ä¸å†™)
+        map.enableKeyboard();//å¯ç”¨é”®ç›˜ä¸Šä¸‹å·¦å³é”®ç§»åŠ¨åœ°å›¾
     }
     
-    //µØÍ¼¿Ø¼şÌí¼Óº¯Êı£º
+    //åœ°å›¾æ§ä»¶æ·»åŠ å‡½æ•°ï¼š
     function addMapControl(){
-        //ÏòµØÍ¼ÖĞÌí¼ÓËõ·Å¿Ø¼ş
-	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
-	map.addControl(ctrl_nav);
-        //ÏòµØÍ¼ÖĞÌí¼ÓËõÂÔÍ¼¿Ø¼ş
-	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
-	map.addControl(ctrl_ove);
-        //ÏòµØÍ¼ÖĞÌí¼Ó±ÈÀı³ß¿Ø¼ş
-	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
-	map.addControl(ctrl_sca);
+        //å‘åœ°å›¾ä¸­æ·»åŠ ç¼©æ”¾æ§ä»¶
+    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+    map.addControl(ctrl_nav);
+        //å‘åœ°å›¾ä¸­æ·»åŠ ç¼©ç•¥å›¾æ§ä»¶
+    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+    map.addControl(ctrl_ove);
+        //å‘åœ°å›¾ä¸­æ·»åŠ æ¯”ä¾‹å°ºæ§ä»¶
+    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+    map.addControl(ctrl_sca);
     }
     
-    //±ê×¢µãÊı×é
-    var markerArr = [{title:"¶«İ¸ÊĞ¸»°î·ÛÄ©Í¿ÁÏÓĞÏŞ¹«Ë¾",content:"µØÖ·£º¶«İ¸ÊĞÆóÊ¯Õò¶«É½´åÓÀÊ¢¹¤ÒµÔ°¶«²¿¿ìËÙ¸ÉÏßÅÔ<br/>µç»°£º0769-82280696/82218792",point:"114.032698|23.061672",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
-		 ];
-    //´´½¨marker
+    //æ ‡æ³¨ç‚¹æ•°ç»„
+    var markerArr = [{title:"ä¸œèå¯Œé‚¦ç²‰æœ«æ¶‚æ–™ç§‘æŠ€è‚¡ä»½æœ‰é™å…¬å¸",content:"åœ°å€ï¼šä¸œèå¸‚ä¼çŸ³é•‡ä¸œå±±æ‘æ°¸ç››å·¥ä¸šå›­ä¸œéƒ¨å¿«é€Ÿå¹²çº¿æ—<br/>ç”µè¯ï¼š0769-82280696/82218792",point:"114.032698|23.061672",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+         ];
+    //åˆ›å»ºmarker
     function addMarker(){
         for(var i=0;i<markerArr.length;i++){
             var json = markerArr[i];
             var p0 = json.point.split("|")[0];
             var p1 = json.point.split("|")[1];
             var point = new BMap.Point(p0,p1);
-			var iconImg = createIcon(json.icon);
+            var iconImg = createIcon(json.icon);
             var marker = new BMap.Marker(point,{icon:iconImg});
-			var iw = createInfoWindow(i);
-			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
-			marker.setLabel(label);
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
             map.addOverlay(marker);
             label.setStyle({
                         borderColor:"#808080",
                         color:"#333",
                         cursor:"pointer"
             });
-			
-			(function(){
-				var index = i;
-				var _iw = createInfoWindow(i);
-				var _marker = marker;
-				_marker.addEventListener("click",function(){
-				    this.openInfoWindow(_iw);
-			    });
-			    _iw.addEventListener("open",function(){
-				    _marker.getLabel().hide();
-			    })
-			    _iw.addEventListener("close",function(){
-				    _marker.getLabel().show();
-			    })
-				label.addEventListener("click",function(){
-				    _marker.openInfoWindow(_iw);
-			    })
-				if(!!json.isOpen){
-					label.hide();
-					_marker.openInfoWindow(_iw);
-				}
-			})()
+            
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
         }
     }
-    //´´½¨InfoWindow
+    //åˆ›å»ºInfoWindow
     function createInfoWindow(i){
         var json = markerArr[i];
         var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
         return iw;
     }
-    //´´½¨Ò»¸öIcon
+    //åˆ›å»ºä¸€ä¸ªIcon
     function createIcon(json){
-        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        var icon = new BMap.Icon("http://api.map.baidu.com/lbsapi/creatmap/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
         return icon;
     }
     
-    initMap();//´´½¨ºÍ³õÊ¼»¯µØÍ¼
-</script>
-</body></html>
+    initMap();//åˆ›å»ºå’Œåˆå§‹åŒ–åœ°å›¾
+        </script>
+    </body>
+</html>
