@@ -15,17 +15,23 @@
                             </script>
                             <script type="text/javascript" src="./css/list/getUrlParam.js"></script> 
                             <script> 
-                            　　var a = UrlParam.paramValues("a"); 
+                            　　var getName = UrlParam.paramValues("name"); 
+                                var getID = UrlParam.paramValues("id"); 
 
+                                var getName2 = UrlParam.paramValues("name2"); 
+                                var getID2 = UrlParam.paramValues("id2");
         
                                 $("#image_change").ready(function()
-                                    {
-                                         $("#image_change").append('<img height="500px" src="./images/list/' + a[0] + '.jpg" width="500px" />'); 
+                                    { 
+                                         $("#image_change").append('<img height="500px" src="./images/list/' + getID + '.jpg" width="500px" />'); 
                                     });
+                                $("#product-id").ready(function(){
+                                    $("#product-id").text(getID+getName);
+                                });
                                 
                                 // $("#image_change").append('<a href="#">click</a>'); 
 
-                            // 　　console.log(a[0]); 
+                             　　console.log(getID2); 
                             </script>
                         </link>
                     </link>
@@ -79,7 +85,7 @@
                                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                                 <tbody>
                                                     <tr>
-                                                        <td align="center" style="    left top no-repeat;" valign="top">
+                                                        <td align="center" style=" left top no-repeat;" valign="top">
                                                             <div class="menunow" style="width:100%;height:100%;right top no-repeat;">
                                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                     <tbody>
@@ -305,86 +311,7 @@
             <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" height="400" width="970">
                 <tbody>
                     <tr>
-                        <td background="./images/list/templatemo_h2.jpg" style="background-repeat:repeat-y" valign="top" width="310">
-                            <table border="0" cellpadding="0" cellspacing="0" width="310">
-                                <tbody>
-                                    <tr>
-                                        <td background="./images/list/templatemo_h3.png" height="54" style="background-position:right; background-repeat:no-repeat; padding-left:50px; color:#FFFFFF; font-size:18px; font-weight:bold">
-                                            产品列表
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                <tbody>
-                                                    <tr>
-                                                        <td height="6">
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <table align="center" border="0" cellpadding="0" cellspacing="0" height="80" width="270">
-                                                <tbody>
-                                                    <tr valign="top">
-                                                        <td align="left" height="300px" style="padding-left:30px;">
-                                                            <table align="right" border="0" cellpadding="3" cellspacing="0" height="38" width="100%">
-                                                                <tbody>
-                                                                    <tr align="right">
-                                                                        <td align="left" class="smenuv" height="36" style="background-repeat:no-repeat;">
-                                                                            <a class="smenuv" href="./list1.html" target="_self">
-                                                                                纯环粉末涂料
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr align="right">
-                                                                        <td align="left" class="smenuv" height="36" style="background-repeat:no-repeat;">
-                                                                            <a class="smenuv" href="./list2.html" target="_self">
-                                                                                环氧、聚酯混合型粉末涂料
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr align="right">
-                                                                        <td align="left" class="smenuv" height="36" style="background-repeat:no-repeat;">
-                                                                            <a class="smenuv" href="./list2.html" target="_self">
-                                                                                纯聚酯粉末涂料
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr align="right">
-                                                                        <td align="left" class="smenuv" height="36" style="background-repeat:no-repeat;">
-                                                                            <a class="smenuv" href="./list2.html" target="_self">
-                                                                                聚氨酯粉末涂料
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr align="right">
-                                                                        <td align="left" class="smenuv" height="36" style="background-repeat:no-repeat;">
-                                                                            <a class="smenuv" href="./list2.html" target="_self">
-                                                                                丙烯酸型
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr align="right">
-                                                                        <td align="left" class="smenuv" height="36" style="background-repeat:no-repeat;">
-                                                                            <a class="smenuv" href="./list2.html" target="_self">
-                                                                                邦定金属粉末涂料
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td align="center" height="5">
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <td background="./images/list/templatemo_h2.jpg" valign="top" width="310">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tbody>
                                     <tr>
@@ -434,6 +361,12 @@
                                                             <br/>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="./css/list/baidumap.html" width="300">
+                                                            </iframe>
+                                                        </td>
+                                                    </tr>
                                                 </tbody>
                                             </table>
                                         </td>
@@ -452,8 +385,7 @@
                                                 <tbody>
                                                     <tr>
                                                         <td align="left" height="35" style="color:#227a21;font-weight:bold; border-bottom:dashed #CCCCCC 1px;">
-                                                            <h3>
-                                                                
+                                                            <h3 id="product-id">
                                                             </h3>
                                                         </td>
                                                     </tr>
