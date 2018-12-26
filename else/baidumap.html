@@ -17,7 +17,7 @@
                     </script>
                     <script src="./getscript" type="text/javascript">
                     </script>
-                    <link href="./bmap.css" rel="stylesheet" type="text/css">
+                    <link href="../css/index/bmap.css" rel="stylesheet" type="text/css">
                     </link>
                 </meta>
             </meta>
@@ -43,7 +43,7 @@
                     <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 400;">
                         <span class="BMap_Marker" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 0px; height: 0px; left: 110px; top: 127px; z-index: -4601602;" unselectable="on">
                             <div style="position: absolute; margin: 0px; padding: 0px; width: 21px; height: 21px; left: -6px; top: -21px; overflow: hidden;">
-                                <img src="../../images/callme/us_mk_icon.png" style="border:none;left:0px; top:0px; position:absolute;"/>
+                                <img src="../images/callme/us_mk_icon.png" style="border:none;left:0px; top:0px; position:absolute;"/>
                             </div>
                             <label class=" BMapLabel" style="position: absolute; display: inline; cursor: pointer; background-color: rgb(255, 255, 255); border: 1px solid rgb(128, 128, 128); padding: 1px; white-space: nowrap; font: 12px arial, simsun; z-index: 80; color: rgb(51, 51, 51); user-select: none; left: 9px; top: -20px;" unselectable="on">
                                 东莞富邦粉末涂料有限公司
@@ -85,7 +85,7 @@
             </div>
             <div class=" anchorBL" style="height: 32px; position: absolute; z-index: 10; bottom: 0px; right: auto; top: auto; left: 1px;">
                 <a href="http://map.baidu.com/?sr=1" style="outline: none;" target="_blank" title="到百度地图首页">
-                    <img src="../../images/callme/copyright_logo.png" style="border:none;width:77px;height:32px"/>
+                    <img src="../images/callme/copyright_logo.png" style="border:none;width:77px;height:32px"/>
                 </a>
             </div>
             <div class=" BMap_cpyCtrl anchorBL" style="cursor: default; white-space: nowrap; bottom: 2px; right: auto; top: auto; left: 81px; position: absolute; z-index: 10;" unselectable="on">
@@ -203,13 +203,13 @@
                     50 米
                 </div>
                 <div class="BMap_scaleBar BMap_scaleHBar">
-                    <img src="../../images/callme/mapctrls11.png" style="border:none"/>
+                    <img src="../images/callme/mapctrls11.png" style="border:none"/>
                 </div>
                 <div class="BMap_scaleBar BMap_scaleLBar">
-                    <img src="../../images/callme/mapctrls11.png" style="border:none"/>
+                    <img src="../images/callme/mapctrls11.png" style="border:none"/>
                 </div>
                 <div class="BMap_scaleBar BMap_scaleRBar">
-                    <img src="../../images/callme/mapctrls11.png" style="border:none"/>
+                    <img src="../images/callme/mapctrls11.png" style="border:none"/>
                 </div>
             </div>
         </div>
@@ -225,8 +225,8 @@
     //创建地图函数：
     function createMap(){
         var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-        var point = new BMap.Point(114.02985,23.056099);//定义一个中心点坐标
-        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        var point = new BMap.Point(114.033947,23.052999);//定义一个中心点坐标
+        map.centerAndZoom(point,16);//设定地图的中心点和坐标并将地图显示在地图容器中
         window.map = map;//将map变量存储在全局
     }
     

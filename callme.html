@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
     <head>
         <meta content="text/html" charset=utf-8" http-equiv="Content-Type">
             <title>
@@ -10,7 +10,9 @@
                     <meta content="IE=7" http-equiv="X-UA-Compatible">
                         <link href="./css/callme/danrudanchu-1.css" rel="stylesheet" type="text/css">
                             <link href="./css/callme/style.css" rel="stylesheet" type="text/css">
-                                <script src="./css/callme/danrudanchu-2.js" type="text/javascript">
+                                <script src="./js/danrudanchu-2.js" type="text/javascript">
+                                </script>
+                                <script src="http://api.map.baidu.com/api?v=2.0&ak=DDd05fcba9fea5b83bf648515e04fc4c" type="text/javascript">
                                 </script>
                             </link>
                         </link>
@@ -334,9 +336,8 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="./css/callme/baidumap.html" width="300">
+                                                            <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="./else/baidumap.html" width="300">
                                                             </iframe>
-                                                        </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -406,8 +407,13 @@
                                                                                             0769-82280638
                                                                                             <br>
                                                                                                 <br>
-                                                                                                    <iframe frameborder="0" height="581" marginheight="0" marginwidth="0" scrolling="no" src="./css/callme/baidumap(1).html" width="650">
-                                                                                                    </iframe>
+                                                                    <div align="center">
+																    <!--<h3>以东莞富邦粉末涂料有限公司为中心显示</h3>-->
+																    <div id="tamMap" style="width:99%;height: 750px;"></div><!--onmousewheel="mScroll()"-->
+																	</div>
+																	<script type="text/javascript" src="./js/baidumap.js">
+    																</script>
+    																<span id="wheelData"></span>
                                                                                                 </br>
                                                                                             </br>
                                                                                         </br>
@@ -430,7 +436,7 @@
                     </tr>
                 </tbody>
             </table>
-            <script src="./css/callme/AspCms_Statistics.asp" type="text/javascript">
+            <script src="./else/AspCms_Statistics.asp" type="text/javascript">
             </script>
             <table align="center" border="0" cellpadding="0" cellspacing="0" width="970">
                 <tbody>
@@ -443,16 +449,16 @@
             <table align="center" border="0" cellpadding="0" cellspacing="0" width="970">
                 <tbody>
                     <tr>
-                        <td bgcolor="#67ca0f" height="5">
+                        <td bgcolor="#272727" height="5">
                         </td>
                     </tr>
                     <tr>
                         <td align="center">
-                            <table bgcolor="#99c459" border="0" cellpadding="0" cellspacing="0" height="60" width="100%">
+                            <table bgcolor="#3c3c3c" border="0" cellpadding="0" cellspacing="0" height="60" width="100%">
                                 <tbody>
                                     <tr>
                                         <td align="center" height="26">
-                                            <font color="#333333">
+                                            <font color="#ffffff">
                                                 <p>
                                                     @Copyright 2018 东莞富邦粉末涂料有限公司
                                                 </p>
