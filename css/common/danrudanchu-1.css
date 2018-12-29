@@ -1,0 +1,123 @@
+/* CSS Document */
+
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+li{ margin:0px; padding:0px;}
+.d1{width:100%;height:400;overflow:hidden;border:#666666 0px solid;position:relative;}  
+.d1 ul{display:none;}  
+.loading{width:970px;border:#666666 0px solid;color:#FFCC00;font-size:12px;height:179px;text-align:center;padding-top:30px;font-weight:bold;}
+.d2{width:100%;height:400px;overflow:hidden;}  
+.num_list{position:absolute;width:100%;left:0px;bottom:-1px;color:#FFFFFF;font-size:12px;padding:4px 0px;height:20px;overflow:hidden;}  
+.num_list span{display:inline-block;height:16px;padding-left:6px;}
+.button{position:absolute;z-index:1000;right:0px;bottom:2px; border:0px;}  
+.button a{background-color:#808485;display:block;line-height:13px;float:left;padding:2px 6px;margin-right:3px;color:#FFFFFF;text-decoration:none;cursor:pointer; border:0px;}  
+.button .b2{color:#ffffff;background-color:#227a21;}
+
+.productlist {
+	MARGIN-TOP: 0px; padding:0px;
+}
+.productlist LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 10px; OVERFLOW: hidden; WIDTH: 180px; PADDING-TOP: 0px; HEIGHT: 200px
+}
+.productlist LI IMG {
+	BORDER-RIGHT: #e4e4e4 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #e4e4e4 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #e4e4e4 1px solid; WIDTH: 150px; PADDING-TOP: 2px; BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 150px
+}
+.productlist LI .product_name {
+	DISPLAY: block; OVERFLOW: hidden; WIDTH: 200px; LINE-HEIGHT: 15px; HEIGHT: 15px; TEXT-ALIGN: center
+}
+
+.pagelink{ float:right; height:26px; line-height:26px; background-color:#DCD9D4; margin:20px 20px 0 0; padding:0 10px;}
+.pagelink a, .pagelink span{ padding:0 5px;}
+.pagelink a.on, .pagelink a:hover{ color:#F9003B;}
+
+.flexslider {
+	margin: 0px auto 0px;
+	position: relative;
+	width: 100%;
+	height: 482px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.flexslider .slides li {
+	width: 100%;
+	height: 100%;
+}
+
+.flex-direction-nav a {
+	width: 70px;
+	height: 70px;
+	line-height: 99em;
+	overflow: hidden;
+	margin: -35px 0 0;
+	display: block;
+	background: url(../../images/common/ad_ctr.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .3s ease;
+	border-radius: 35px;
+}
+
+.flex-direction-nav .flex-next {
+	background-position: 0 -70px;
+	right: 0;
+}
+
+.flex-direction-nav .flex-prev {
+	left: 0;
+}
+
+.flexslider:hover .flex-next {
+	opacity: 0.8;
+	filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-prev {
+	opacity: 0.8;
+	filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+	opacity: 1;
+	filter: alpha(opacity=50);
+}
+
+.flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	margin: 0 2px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.flex-control-paging li a {
+	background: url(../../images/common/dot.png) no-repeat 0 -16px;
+	display: block;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -99em;
+	width: 16px;
+	cursor: pointer;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {
+	background-position: 0 0;
+}
+
+.flexslider .slides a img {
+	width: 100%;
+	height: 482px;
+	display: block;
+}

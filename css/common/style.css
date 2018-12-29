@@ -1,7 +1,10 @@
 /* ==»´æ÷…Ë÷√== */
 
 BODY{
-background:#FFFFFF;
+background: url("../../images/common/leaf.jpg") no-repeat;
+height:100%;
+width:100%;
+background-size:cover;
 color:#333333;
 font-size:12px;
 line-height:150%;
