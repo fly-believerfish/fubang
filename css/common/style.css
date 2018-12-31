@@ -1,4 +1,4 @@
-/* ==È«¾ÖÉèÖÃ== */
+ï»¿/* ==ÃˆÂ«Â¾Ã–Ã‰Ã¨Ã–Ãƒ== */
 
 BODY{
 background: url("../../images/common/leaf.jpg") no-repeat;
@@ -65,7 +65,7 @@ background-image: url(inputbg.gif)
 .button{color:#333333;font-size:12px;border:1px outset}
 
 
-/* ==À¸Ä¿²Ëµ¥ÑùÊ½== */
+/* ==Ã€Â¸Ã„Â¿Â²Ã‹ÂµÂ¥Ã‘Ã¹ÃŠÂ½== */
 
 .menu {width:70px;padding-top:0px;white-space: nowrap} 
 A.menu {color:#ffffff;font-size:12px;text-decoration: none; font-weight:bold;} 
@@ -103,13 +103,13 @@ A.smenuv:active{color:#227a21;}
 A.smenuv:hover{color:#ff0000; text-decoration:underline;}
 
 
-/* ==Ò³ÄÚµ¼º½ÑùÊ½== */
+/* ==Ã’Â³Ã„ÃšÂµÂ¼ÂºÂ½Ã‘Ã¹ÃŠÂ½== */
 
 .nav {color:#777777;font-size:12px;} 
 td.nav {padding-left:5px} 
 
 
-/* ==±í¸ñÑùÊ½== */
+/* ==Â±Ã­Â¸Ã±Ã‘Ã¹ÃŠÂ½== */
 
 td.title{background:#E2E3E3}
 td.con{background:#ffffff}
@@ -119,12 +119,12 @@ td.con{background:#ffffff}
 
 
 
-/* ==½»ÌæÑùÊ½== */
+/* ==Â½Â»ÃŒÃ¦Ã‘Ã¹ÃŠÂ½== */
 
 .list{BACKGROUND-COLOR: expression((this.sectionRowIndex%2==0)?'#F5F7F4':'#E2E3E3');font-size:14px;}
 
 
-/* =={#lanTitle#}ÁÐ±íÑùÊ½== */
+/* =={#lanTitle#}ÃÃÂ±Ã­Ã‘Ã¹ÃŠÂ½== */
 
 .tList{color:#333333;line-height:22px;font-size:12px}
 .tList1{color:#b0b0b0;line-height:150%;font-size:12px}
@@ -135,7 +135,7 @@ a.tList:visited{color:#333333}
 a.tList:active{color:#333333}
 a.tList:hover{color:#ff6611}
 
-/* ==Í¼Æ¬ÁÐ±íÑùÊ½== */
+/* ==ÃÂ¼Ã†Â¬ÃÃÂ±Ã­Ã‘Ã¹ÃŠÂ½== */
 
 td.piclist{background:#ffffff}
 div.piclist{border:1px #dddddd solid;width:50px;height:50px;padding:1px;background:#ffffff}
@@ -145,7 +145,7 @@ div.pictitle{border:0px #dddddd solid;padding:1px;background:#ffffff}
 
 
 
-/* ==¸ü¶àÁ´½ÓÑùÊ½== */
+/* ==Â¸Ã¼Â¶Ã ÃÂ´Â½Ã“Ã‘Ã¹ÃŠÂ½== */
 
 a.more{font-size:12px;;text-decoration: none}
 a.more:link{color:#555555;}
@@ -153,7 +153,7 @@ a.more:visited{color:#555555;}
 a.more:active{color:#555555;}
 a.more:hover{color:#ff6611;}
 
-/* ==Ê÷ÐÍ²Ëµ¥ÑùÊ½== */
+/* ==ÃŠÃ·ÃÃÂ²Ã‹ÂµÂ¥Ã‘Ã¹ÃŠÂ½== */
 
 .dtree {color: #555555;font-size: 12.00px;	white-space: nowrap;}
 .dtree img  {border: 0px;	vertical-align: middle;}
@@ -165,14 +165,14 @@ a.more:hover{color:#ff6611;}
 .dtree a.nodeSel {background-color: #cfdfef;font-size: 12.00px;}
 .dtree .clip {overflow: hidden;}
 
-/* ==·­Ò³ÑùÊ½== */
+/* ==Â·Â­Ã’Â³Ã‘Ã¹ÃŠÂ½== */
 
 .pagesinfo {color:#555555;font-size:12px;}
 .pagesnow {color:#ff6600;font-size:14px;text-decoration: none}
 .pages {color:#777777;font-size:14px;text-decoration: none}
 
 
-/* ==ÎÄÕÂÆµµÀ¼ìË÷ÁÐ±íÑùÊ½== */
+/* ==ÃŽÃ„Ã•Ã‚Ã†ÂµÂµÃ€Â¼Ã¬Ã‹Ã·ÃÃÂ±Ã­Ã‘Ã¹ÃŠÂ½== */
 
 td.newsquery{height:30px; background:none}
 
@@ -187,14 +187,14 @@ a.newsquery:hover{color:#ff6611;}
 .newsquerytime{color:#555555;font-size:12px; background:none}
 
 
-/* ==ÎÄÕÂÆµµÀÏêÇéÑùÊ½== */
+/* ==ÃŽÃ„Ã•Ã‚Ã†ÂµÂµÃ€ÃÃªÃ‡Ã©Ã‘Ã¹ÃŠÂ½== */
 
 .newstitle {color:#333333;font-size:18px;font-weight:bold}
 .newsinfo {background:#f0f0f0;color:#555555;font-size:12px;}
 .newscon {color:#777777;font-size:14px;line-height:160%;padding:15px}
 
 
-/* ==Ò»¼¶·ÖÀàÁÐ±íÑùÊ½== */
+/* ==Ã’Â»Â¼Â¶Â·Ã–Ã€Ã ÃÃÂ±Ã­Ã‘Ã¹ÃŠÂ½== */
 
 .class{color:#777777;font-size:12px;}
 a.class{color:#777777;text-decoration: none}
@@ -205,7 +205,7 @@ a.class:hover{color:#ff6611;}
 table.class{border:1px #dddddd solid}
 td.class{padding-left:10px}
 
-/* ==¶þ¼¶·ÖÀàÁÐ±íÑùÊ½== */
+/* ==Â¶Ã¾Â¼Â¶Â·Ã–Ã€Ã ÃÃÂ±Ã­Ã‘Ã¹ÃŠÂ½== */
 
 table.bigclass{border:1px #B5E5F5 solid}
 td.bigclass{background:#eeeeee;padding-left:10px;height:25px}
@@ -230,7 +230,7 @@ a.smallclass:hover{color:#ff6611;}
 
 
 
-/* ==ÏÂÔØÆµµÀÑùÊ½== */
+/* ==ÃÃ‚Ã”Ã˜Ã†ÂµÂµÃ€Ã‘Ã¹ÃŠÂ½== */
 
 td.downquery{height:22px}
 
@@ -249,7 +249,7 @@ a.downquery:hover{color:#ff6611;}
 .downintro {color:#777777;font-size:12px;line-height:150%;}
 
 
-/* ==Í¼ÎÄÆµµÀÑùÊ½== */
+/* ==ÃÂ¼ÃŽÃ„Ã†ÂµÂµÃ€Ã‘Ã¹ÃŠÂ½== */
 
 .cpline{background:#dddddd}
 td.cpquery{background:#ffffff;}
@@ -264,20 +264,20 @@ div.cpquerytitle{border:0px #eeeeee solid;padding:2px;background:none}
 .cpintro {color:#777777;font-size:12px;line-height:150%;}
 
 
-/* ==ÌáÊ¾ÐÅÏ¢ÑùÊ½== */
+/* ==ÃŒÃ¡ÃŠÂ¾ÃÃ…ÃÂ¢Ã‘Ã¹ÃŠÂ½== */
 
 .notic{font-size:12px;color:#777777}
 .noticerr{font-size:12px;color:#ff6600}
 .noticlink{font-size:12px;color:#ff6600}
 
 
-/* ==»áÔ±ÆµµÀÑùÊ½== */
+/* ==Â»Ã¡Ã”Â±Ã†ÂµÂµÃ€Ã‘Ã¹ÃŠÂ½== */
 
 .mustfill {color:#ff0000;font-size:14px;}
 .memberinfo{color:#555555;}
 
 
-/* ==ÆÀÂÛÑùÊ½== */
+/* ==Ã†Ã€Ã‚Ã›Ã‘Ã¹ÃŠÂ½== */
 
 td.bbsquery{height:23px}
 
@@ -298,9 +298,126 @@ a.bbsquery:hover{color:#ff6611;}
 .bbsline{background:#dddddd}
 
 
-/* ==È«Õ¾ËÑË÷ÑùÊ½== */
+/* ==ÃˆÂ«Ã•Â¾Ã‹Ã‘Ã‹Ã·Ã‘Ã¹ÃŠÂ½== */
 
 .searchtitle{color:#777777;font-size:14px;line-height:32px}
 a.searchtitle{color:#777777;font-size:14px;line-height:32px}
 .searchbody{color:#333333;font-size:13px;line-height:18px;height:60px}
 .searchtime{color:#555555;font-size:12px}
+
+.box {
+  width: 150px;
+  height: 150px;
+  transition: transform 2s;
+  float: left;
+  background-image: url(../../images/news/1.png);
+}
+div.box:hover {
+  transform:  rotateY(360deg);
+}
+
+.box1 {
+  width: 150px;
+  height: 150px;
+  transition: transform 2s;
+  float: left;
+  background-image: url(../../images/news/2.png);
+}
+div.box1:hover {
+  transform:  rotateY(360deg);
+}
+
+.box2 {
+  width: 150px;
+  height: 150px;
+  transition: transform 2s;
+  float: left;
+  background-image: url(../../images/news/3.png);
+}
+div.box2:hover {
+  transform:  rotateY(360deg);
+}
+
+.zhuan{
+	width: 150px;
+	height: 210px;
+	float: left;
+	padding-right:30px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.zhuan1{
+	padding-top:170px;
+	height:50px;
+	font-size: 20px;
+}
+
+
+
+
+.shutter {
+  overflow: hidden;
+  width: 570px;
+  height: 200px;
+  position: relative;
+  margin: 30px auto;
+  border-radius: 10px;
+  
+}
+.shutter-img {
+  z-index: 1;
+}
+.shutter-img,
+.shutter-img a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.shutter-img a {
+  cursor: default;
+}
+.shutter-img a > img {
+  width: 100%;
+  height: 100%;
+}
+.shutter-img .created {
+  overflow: hidden;
+  position: absolute;
+  z-index: 20;
+}
+.shutter-btn {}
+.shutter-btn li {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  width: 49px;
+  height: 49px;
+  margin-top: -25px;
+  cursor: pointer;
+}
+.shutter-btn li.prev {
+  left: 20px;
+  background: url(../../images/news/shutter_prevBtn.png) no-repeat 0 -49px;
+}
+.shutter-btn li.next {
+  right: 20px;
+  background: url(../../images/news/shutter_nextBtn.png) no-repeat 0 -49px;
+}
+.shutter-desc {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 36px;
+  background: url(../../images/news/shutter_shadow.png) repeat;
+}
+.shutter-desc p {
+  padding-left: 20px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 14px;
+}
