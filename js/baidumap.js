@@ -8,10 +8,10 @@ var marker = new BMap.Marker(point);  // 创建标注
 var opts = {
 	width: 300,  //信息窗口宽度
 	height: 50,  //信息窗口高度
-	title: "东莞富邦粉末涂料有限公司",  //信息窗口标题
+	title: "东莞市富邦粉末涂料有限公司",  //信息窗口标题
 	enableMessage: true  //设置允许信息窗口发送短信
 };
-var label = new BMap.Label(" 东莞富邦粉末涂料有限公司 ");
+var label = new BMap.Label(" 东莞市富邦粉末涂料有限公司 ");
 label.setStyle({
                  color: "#000",
                  border: "1px solid black",
