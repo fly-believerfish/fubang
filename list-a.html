@@ -27,12 +27,23 @@
                                 var getName2 = UrlParam.paramValues("name2"); 
                                 var getID2 = UrlParam.paramValues("id2");
         
+        
                                 $("#image_change").ready(function()
                                     { 
-                                         $("#image_change").append('<img height="500px" src="./images/list/' + getID + '.jpg" width="500px" />'); 
+                                        if (getID == "H8P25" || getID == "H1180")
+                                        {
+
+                                            $("#image_change").append('<img height="500px" src="./images/list/' + 'new_material.jpg" width="500px" />'); 
+                                            // $("#image_change").append('<img height="150px" src="./images/list/' + getID + '.jpg" width="500px" />');
+                                        }
+                                        else
+                                            $("#image_change").append('<img height="500px" src="./images/list/' + getID + '.jpg" width="500px" />'); 
                                     });
                                 $("#product-id").ready(function(){
-                                    $("#product-id").text(getID+getName);
+                                    if (getID == "H8P25" || getID == "H1180")
+                                        $("#product-id").text("新型散热粉研究开发"); 
+                                    else
+                                        $("#product-id").text(getID+getName);
                                 });
                                 
                                 // $("#image_change").append('<a href="#">click</a>'); 
