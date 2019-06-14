@@ -10,7 +10,7 @@ font-size:12px;
 line-height:150%;
 background-position:center;
 text-decoration: none;
-} 
+}
 
 TD{
 color:#333333;
@@ -67,36 +67,36 @@ background-image: url(inputbg.gif)
 
 /* ==À¸Ä¿²Ëµ¥ÑùÊ½== */
 
-.menu {width:70px;padding-top:0px;white-space: nowrap} 
-A.menu {color:#ffffff;font-size:12px;text-decoration: none; font-weight:bold;} 
+.menu {width:70px;padding-top:0px;white-space: nowrap}
+A.menu {color:#ffffff;font-size:12px;text-decoration: none; font-weight:bold;}
 A.menu:link{color:#ffffff;}
 A.menu:visited{color:#ffffff;}
 A.menu:active{color:#ffffff;}
 A.menu:hover{color:#FFCC01;}
 
 
-.menunow {width:70px;padding-top:0px;white-space: nowrap} 
-A.menunow {color:#ffffff;font-size:12px;text-decoration: none; font-weight:bold;} 
+.menunow {width:70px;padding-top:0px;white-space: nowrap}
+A.menunow {color:#ffffff;font-size:12px;text-decoration: none; font-weight:bold;}
 A.menunow:link{color:#ffffff;}
 A.menunow:visited{color:#ffffff;}
 A.menunow:active{color:#ffffff;}
 A.menunow:hover{color:#ffffff;}
 
 
-.btmenu {color:#333333;font-size:12px;line-height:150%;text-decoration: none} 
+.btmenu {color:#333333;font-size:12px;line-height:150%;text-decoration: none}
 A.btmenu:link{color:#333333;}
 A.btmenu:visited{color:#333333;}
 A.btmenu:active{color:#333333;}
 A.btmenu:hover{color:#ffffff;}
 
-.smenu {color:#ffffff;font-size:12px;line-height:150%;text-decoration: none} 
+.smenu {color:#ffffff;font-size:12px;line-height:150%;text-decoration: none}
 A.smenu:link{color:#ffffff;}
 A.smenu:visited{color:#ffffff;}
 A.smenu:active{color:#ffffff;}
 A.smenu:hover{color:#ffffff;}
 
-.smenuv {color:#227a21;font-size:12px;line-height:150%;text-decoration: none} 
-td.smenuv {border:0px #dddddd solid} 
+.smenuv {color:#227a21;font-size:12px;line-height:150%;text-decoration: none}
+td.smenuv {border:0px #dddddd solid}
 A.smenuv:link{color:#227a21;}
 A.smenuv:visited{color:#227a21;}
 A.smenuv:active{color:#227a21;}
@@ -105,8 +105,8 @@ A.smenuv:hover{color:#ff0000; text-decoration:underline;}
 
 /* ==Ò³ÄÚµ¼º½ÑùÊ½== */
 
-.nav {color:#777777;font-size:12px;} 
-td.nav {padding-left:5px} 
+.nav {color:#777777;font-size:12px;}
+td.nav {padding-left:5px}
 
 
 /* ==±í¸ñÑùÊ½== */
@@ -363,7 +363,7 @@ div.box2:hover {
   position: relative;
   margin: 30px auto;
   border-radius: 10px;
-  
+
 }
 .shutter-img {
   z-index: 1;
@@ -420,4 +420,26 @@ div.box2:hover {
   line-height: 36px;
   color: #fff;
   font-size: 14px;
+}
+
+.bgc {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff !important;
+}
+
+a:hover.bgc {
+  color:rgb(255, 204, 1) !important;
+}
+
+.dropdown-menu a:hover {
+  color:rgb(255, 204, 1) !important;
+}
+
+.nobg {
+  min-height:20px !important;
+  border: none !important;
+  margin: 0px 0px !important;
+  background: none !important;
 }
